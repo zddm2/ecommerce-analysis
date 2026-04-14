@@ -1,0 +1,20 @@
+# 原始数据文件（506MB，不推送到 GitHub）
+data/ecommerce_dataset_+1m.csv
+
+# 可选：如果清洗后的样本也很大，可以排除，但通常不大，建议保留
+# data/ecommerce_clean_sample.csv
+
+# Python 缓存
+__pycache__/
+*.pyc
+
+# 虚拟环境
+venv/
+.venv/
+
+# IDE 配置
+.idea/
+.vscode/
+
+# 输出图片（如果生成过图片，不想上传）
+output/figures/
